@@ -1,0 +1,379 @@
+/* BUTTONS */
+.x-button,
+.x-toolbar .x-button,
+.x-toolbar .x-button.x-button-action {
+	border: 1px solid #005aab;
+	border-radius: 1px;
+	background-image: none;
+	background-color: #005aab;
+	color: #ffffff;
+	height: 40px;
+}
+.x-button.x-button-pressing,
+.x-toolbar .x-button.x-button-pressing,
+.x-toolbar .x-button.x-button-action.x-button-pressing {
+	background-image: none;
+	background-color: #ffffff;
+	color: #005aab;
+}
+.x-button .x-button-label,
+.x-toolbar .x-button .x-button-label {
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.x-toolbar .x-button .x-button-label, 
+.x-toolbar .x-button .x-badge{
+	font-size: 18px;
+}
+
+.x-button.x-item-disabled {
+	border-color: #a4a4a4;
+	background-color: #efefef;
+	color: #a4a4a4;
+}
+
+.app_button_white.x-button {
+	border: 1px solid #000000;
+	border-radius: 0;
+	background-image: none;
+	background-color: #ffffff;
+	color: #333;
+	height: 40px;
+}
+
+.app_button_white.x-button.x-item-disabled {
+	border: none;
+	border-radius: 0;
+	background-image: none;
+	/* background-color: #f2f2f2; */
+	background-color: transparent !important;
+	color: #333;
+	height: 40px;
+}
+
+.app_button_white.x-button.x-button-pressing,
+.app_button_white.app_button_pressed {
+	background-image: none;
+	background-color: #a7c0de;
+}
+
+.app_login_button{
+	border:1px solid #ffffff;
+    background-image: none;
+}
+.app_login_button.x-button.x-button-pressing{
+    background-image: none;
+    background-color: #ffffff;
+}
+.app_login_button.x-button.x-button-pressing .x-button-label{
+    color: #005aab;
+}
+
+.app_icon_btn {
+	color: #ffffff;
+	background-color: transparent;
+	border: none;
+}
+.app_icon_btn.x-button-pressing {
+	color: #ffffff;
+	background-color: inherit;
+	border: none;
+	opacity: .6;
+}
+
+/* LOGIN */
+.app_login{
+	background-color: #005aab;
+}
+
+.app_main_color{
+	color: #005aab;
+}
+
+.app_login_button{
+	border:1px solid #ffffff;
+    background-image: none;
+}
+.app_login_button.x-button.x-button-pressing{
+    background-image: none;
+    background-color: #ffffff;
+}
+.app_login_button.x-button.x-button-pressing .x-button-label{
+    color: #005aab;
+}
+
+/* HEADER */
+
+.app_header{
+    background-color: #005aab;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.app_login .app-header-logo {
+    background: transparent url('../images/logo.png') center no-repeat;
+    background-size: contain;
+    width: 212px;
+    height: 70px;
+}
+
+.app-header-logo {
+    background: transparent url('../images/logo-cabecera.png') center no-repeat;
+    background-size: contain;
+    width: 212px;
+    height: 70px;
+}
+
+.app-header-logo .x-innerhtml{
+    margin-top: 36px;
+    font-size: 12px;
+    padding-left: 4px;
+}
+
+.app-header-menu {
+    width: 17px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.app-header-menu.x-button.x-button-pressing {
+	background-color: #005aab;
+	color: #ffffff;
+}
+
+/* SUB-HEADER */
+.sub-header {
+	height: 50px !important;
+	background-color: #f4f2f2;
+
+}
+
+.sub-header .title-subheader {
+	color: #aeaeae;
+	font-size: 15px;
+	padding: 19px 11px;
+}
+
+/* LIST */
+
+.x-list {
+	background-color: #ffffff;
+	font-size: 15px;
+}
+
+.x-list .list-item-tpl {
+	border-color: #d9d9d9;
+}
+
+.x-list .x-list-item.x-item-pressed.x-list-item-tpl,
+.x-list .x-list-item.x-item-selected.x-list-item-tpl {
+    background-image: none;
+    background-color: #eeeeee;
+    background-image: -webkit-linear-gradient(top, #ffffff,#f6f6f6 50%,#eeeeee);
+}
+
+.x-list .x-list-item-tpl .x-list-disclosure {
+    position: absolute;
+    right: 13px;
+    top: 24px;
+    overflow: visible;
+    background: 0 0 url('../images/icon-list.png') no-repeat;
+    -webkit-mask: 0 0 url('../images/icon-list.png') no-repeat;
+    padding: 0;
+    margin: 0;
+    height: 17px;
+    width: 12px;
+}
+
+
+.x-list .list-item-tpl .x-innerhtml {
+    padding: 12px 10px;
+}
+
+.x-list .peticion {
+	height: 40px;
+}
+
+.x-list .peticion .bloque-peticion-izquierda {
+	float: left;
+	width: 62%;
+	color: #5b5b5b;
+}
+
+.x-list .bloque-peticion-izquierda strong {
+	color: #2f2f2f;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.x-list .bloque-peticion-derecha {
+	float: right;
+	width: 30%;
+	color: #a4a4a4;
+	margin-top: 12px;
+}
+
+/* DETALLE */
+.detalle-peticion {
+	background-color: #ffffff;
+}
+
+.detalle-peticion .sub-header .boton-volver {
+	background: none;
+    background: 0 15px url('../images/flecha-volver-detalle.png') no-repeat;
+    border: none;
+    color: #2f2f2f;
+    width: 125px;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 15px;
+    height: 50px;
+}
+
+.detalle-peticion .sub-header .boton-volver .x-button-label {
+	font-weight: bold;
+}
+
+.detalle-peticion .sub-header .fecha-detalle {
+	position: absolute;
+    right: 0;
+}
+
+.detalle-peticion .botones-detalle {
+
+}
+
+.detalle-peticion .botones-detalle .boton-autorizar {
+	position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    background-color: #005aab;
+    border-radius: 3px;
+    border: 1px solid #005aab;
+    width: 45%;
+}
+
+.detalle-peticion .botones-detalle .boton-denegar {
+	position: absolute;
+    left: 10px;
+    top: 10px;
+    background: none;
+    background-color: #ed1c24;
+    border-radius: 3px;
+    border: 1px solid #ed1c24;
+    width: 45%;
+}
+
+.detalle-peticion .contenido-detalle {
+	background-color: #ffffff;
+}
+
+.detalle-peticion .contenido-detalle .detalle {
+	padding: 10px 10px;
+}
+
+.detalle-peticion .contenido-detalle .detalle h1 {
+	font-weight: bold;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-size: 17px;
+}
+
+.detalle-peticion .contenido-detalle .detalle .bloque-detalle {
+	border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+
+.detalle-peticion .contenido-detalle .detalle .bloque-detalle:last-child {
+	border-bottom: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.detalle-peticion .contenido-detalle .detalle .bloque-detalle h2 {
+	margin-bottom: 2px;
+}
+
+.detalle-peticion .contenido-detalle .detalle .bloque-detalle p {
+	margin-bottom: 2px;
+}
+
+/* PANTALLAS CONFIRMACIÓN */
+
+.panelConfirmacion {
+    background-color: #FFFFFF;
+    border: 1px solid #005aab;
+    width : '90%';
+    min-height : 150px;
+}
+
+.panelConfirmacion .x-toolbar-dark {
+    height: 40px !important;
+}
+
+.panelConfirmacion .x-toolbar-dark .x-title {
+    font-size: 16px;
+    color: #005aab;
+    text-shadow: none;
+}
+
+.x-msgbox-dark .x-msgbox-text {
+    font-size: 14px;
+    color: black;
+    text-shadow: none;
+}
+
+.panelConfirmacion .x-toolbar-dark .x-button {
+  color: #005aab;
+}
+
+.panelConfirmacion .x-button {
+  border: 1px solid #005aab;
+  background-color: #FFF;
+  background-image: none;
+  height: 30px;
+  width: 30%;
+}
+
+.panelConfirmacion .x-button.x-button-pressing {
+  border: 2px solid #800D07;
+  background-color: #FFF;
+  background-image: none;
+  color: #800D07;
+}
+
+.panelConfirmacion .x-button.x-button-pressing .x-button-label{
+  color: #800D07;
+}
+
+.panelConfirmacion .x-button .x-button-label {
+    font-size: 14px;
+    color: #005aab;
+}
+
+.panelConfirmacion .x-button.x-button-action {
+  background-color: #005aab;
+  background-image: none;
+  border: 1px solid #005aab;
+  height: 30px;
+  width: 70px;
+}
+
+.panelConfirmacion .x-button.x-button-action.x-button-pressing {
+  border: 1px solid #800D07;
+  background-color: #800D07;
+  background-image: none;
+}
+
+.panelConfirmacion .x-button.x-button-action .x-button-label {
+    color: #FFF;
+}
